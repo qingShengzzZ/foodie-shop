@@ -1,4 +1,4 @@
-package com.imooc.pojo;
+package cn.szh.pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
