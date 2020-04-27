@@ -11,6 +11,10 @@
 
     <artifactId>foodie-service</artifactId>
     <dependencies>
+        <!--
+          service -> mapper -> pojo ->common
+          service通过mapper通过pojo是可以使用common中相应的方法的
+      -->
         <dependency>
             <groupId>cn.szh</groupId>
             <artifactId>foodie-mapper</artifactId>
