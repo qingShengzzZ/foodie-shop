@@ -65,7 +65,7 @@ public interface ItemService {
      * @param pageSize
      * @return
      */
-    public PagedGridResult searhItems(String keywords, String sort,
+    public PagedGridResult searchItems(String keywords, String sort,
                                       Integer page, Integer pageSize);
 
 
@@ -77,7 +77,7 @@ public interface ItemService {
      * @param pageSize
      * @return
      */
-    public PagedGridResult searhItems(Integer catId, String sort,
+    public PagedGridResult searchItems(Integer catId, String sort,
                                       Integer page, Integer pageSize);
 
     /**

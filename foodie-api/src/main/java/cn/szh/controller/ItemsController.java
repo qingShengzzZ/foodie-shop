@@ -117,7 +117,7 @@ public class ItemsController {
             pageSize = PAGE_SIZE;
         }
 
-        PagedGridResult grid = itemService.searhItems(keywords,
+        PagedGridResult grid = itemService.searchItems(keywords,
                 sort,
                 page,
                 pageSize);
@@ -149,7 +149,7 @@ public class ItemsController {
             pageSize = PAGE_SIZE;
         }
 
-        PagedGridResult grid = itemService.searhItems(catId,
+        PagedGridResult grid = itemService.searchItems(catId,
                 sort,
                 page,
                 pageSize);

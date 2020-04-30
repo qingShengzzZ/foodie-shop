@@ -111,7 +111,7 @@ public class ItemServiceImpl implements ItemService {
 
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
-    public PagedGridResult searhItems(String keywords, String sort, Integer page, Integer pageSize) {
+    public PagedGridResult searchItems(String keywords, String sort, Integer page, Integer pageSize) {
 
         Map<String,Object> map = new HashMap<>();
         map.put("keywords",keywords);
@@ -125,7 +125,7 @@ public class ItemServiceImpl implements ItemService {
     }
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
-    public PagedGridResult searhItems(Integer catId, String sort, Integer page, Integer pageSize) {
+    public PagedGridResult searchItems(Integer catId, String sort, Integer page, Integer pageSize) {
 
         Map<String,Object> map = new HashMap<>();
         map.put("catId",catId);
